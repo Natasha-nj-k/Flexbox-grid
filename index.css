@@ -5,4 +5,58 @@
 
 body{
   font-family: "Sour Gummy", serif;
+  background-color: burlywood;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.navbar{
+  background-color: black;
+  color: white;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  cursor: pointer;
+  color: brown;
+}
+
+.container2{
+  display: grid;
+    grid-template-columns: 3fr, 3fr 3fr ,2fr;
+    grid-template-rows: auto;
+    gap: 15px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content{
+  background: rgb(216, 173, 117);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
